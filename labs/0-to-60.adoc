@@ -69,11 +69,11 @@ oc apply -f https://raw.githubusercontent.com/RedHatWorkshops/workshop-amq-strea
 ----
 
 Again, follow the deployment from the OpenShift console.
-You should see three separate deployments:
+You should see three separate deployments:  (You will have to wait few minutes to see all of them in your console) 
 
 * `simple-cluster-zookeeper` - a stateful set containing the Zookeeper ensemble
 * `simple-cluster-kafka` - a stateful set containing the Kafka cluster
-* `simple-cluster-entity-operator` - a deployment containing the entity operator for managing topics and users
+* `simple-cluster-entity-operator` - a deployment containing the entity operator for managing topics and users 
 
 === Testing the deployment
 
